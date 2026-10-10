@@ -1,0 +1,30 @@
+# Kompilacja firmware
+firmware/build/
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Nextion Editor - pliki tymczasowe
+*.bak
+*.tmp
+
+# SolidWorks - pliki blokady i kopie
+~$*
+*.SLDBAK
+
+# System
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Edytory
+.vscode/
+.idea/
+
+# Lokalne materiały - nie publikować
+_archiwum/
+dokumentacja/
+enclosure/nextion3.2/
+firmware/build_pico2/
